@@ -1,11 +1,6 @@
 import { create } from "zustand";
 import { combine } from "zustand/middleware";
 
-const x = (a: string): number => {
-  return Number(a);
-};
-console.log(x);
-
 const useGameStore = create(
   combine(
     {

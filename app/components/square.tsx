@@ -1,4 +1,6 @@
-export default function Square({ value, onSquareClick }) {
+import { SquareProps } from "../types/types";
+
+export default function Square({ value, onSquareClick }: SquareProps) {
   return (
     <button
       style={{

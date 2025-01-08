@@ -1,4 +1,6 @@
-function calculateWinner(squares) {
+import { SquareItemEnum } from "../types/types";
+
+function calculateWinner(squares: (SquareItemEnum | null)[]) {
   const lines = [
     [0, 1, 2],
     [3, 4, 5],
